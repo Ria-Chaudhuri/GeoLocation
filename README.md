@@ -17,7 +17,7 @@ Before running the project, ensure you have the following installed:
 - Git (optional, for cloning the repository)
 
 ### **Project Structure**
-
+```
 project/
 │
 ├── data/
@@ -27,11 +27,12 @@ project/
 ├── geocode_function.py           # Contains the geocoding and batch processing functions
 ├── main.py                       # Main script to execute the application
 ├── tests/
-│ │   └── test_geocode.py           # Unit tests for the geocoding functions
+│   └── test_geocode.py           # Unit tests for the geocoding functions
 │
 ├── .env                          # Environment file for storing API keys
 ├── requirements.txt              # Python dependencies
 └── README.md                     # Project documentation
+```
 ### **Installation**
 
 1. **Clone the Repository**
@@ -39,8 +40,11 @@ project/
 If you haven't cloned the repository yet, do so with:
 
 
-git clone https://github.com/yourusername/ip-geolocation-tool.git
-cd ip-geolocation-tool
+```
+    git clone https://github.com/yourusername/ip-geolocation-tool.git;
+    cd ip-geolocation-tool
+```
+   
 
 2. **Install Dependencies**
 
